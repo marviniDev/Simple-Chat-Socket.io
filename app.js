@@ -32,6 +32,4 @@ io.on("connection", function (client) {
 });
 
 
-http.listen(process.env.PORT, function(){
-  console.log('listening on port 3000');
-});
+http.listen(process.env.PORT);
